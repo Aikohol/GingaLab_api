@@ -1,0 +1,36 @@
+{
+  "name": "gingalab_api",
+  "version": "1.0.0",
+  "description": "api for gingalab test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aikohol/GingaLab_api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "Tio Gobin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aikohol/GingaLab_api/issues"
+  },
+  "homepage": "https://github.com/Aikohol/GingaLab_api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect-multiparty": "^2.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
